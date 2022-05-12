@@ -1,0 +1,32 @@
+html {
+    height: 100%;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    font-family: Verdana, sans-serif;
+    background: linear-gradient(45deg, #0c261f, #25553e, #fec425);
+}
+
+.header-container {
+    padding: 16px;
+}
+
+.body-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, .6);
+}
+
+#page-title {
+    color: white;
+    text-align: center;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, .6);
+}
